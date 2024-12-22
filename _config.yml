@@ -3,3 +3,6 @@ plugins:
 - jekyll-remote-theme
 title: Maneesha Reddy Deva
 description: Change starts from "YOU" Trying to make world a better place!!
+# Add this line to include custom CSS
+include:
+  - assets/css/style.css
