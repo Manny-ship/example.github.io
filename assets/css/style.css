@@ -1,29 +1,4 @@
-/* Basic styling for navigation */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-nav ul li {
-  float: left;
-}
-
-nav ul li a, .dropdown .dropbtn {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
-nav ul li a:hover, .dropdown:hover .dropbtn {
-  background-color: #111;
-}
-
-/* Dropdown styling */
+/* Custom Dropdown Styles */
 .dropdown {
   position: relative;
   display: inline-block;
@@ -50,4 +25,25 @@ nav ul li a:hover, .dropdown:hover .dropbtn {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #333;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #111;
 }
