@@ -25,6 +25,7 @@ nav ul {
 
 nav ul li {
   display: block;
+ /* padding: 10x 0;
 }
 
 nav ul li a, .dropdown .dropbtn {
@@ -50,7 +51,8 @@ nav ul li a:hover, .dropdown:hover .dropbtn {
   position: absolute;
   background-color: #333;
   min-width: 160px;
-  z-index: 1;
+  z-index: 50; /* Ensure it stays above other content */
+  left: 100%; /* Position it next to the "Experiences" link */
 }
 
 /* Links inside the dropdown */
