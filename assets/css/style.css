@@ -42,6 +42,7 @@ nav ul li a:hover, .dropdown:hover .dropbtn {
 /* Dropdown container (hidden by default) */
 .dropdown {
   position: relative;
+  width: 100%;
 }
 
 /* Dropdown content (hidden by default) */
@@ -50,7 +51,9 @@ nav ul li a:hover, .dropdown:hover .dropbtn {
   position: absolute;
   background-color: #333;
   min-width: 160px;
-  z-index: 1;
+  z-index: 10;
+  top: 0;
+  left: 100%;
 }
 
 /* Links inside the dropdown */
@@ -87,14 +90,21 @@ footer {
 
 /* Styling for navbar links */
 nav ul li a {
+  padding: 16px 20px;
   font-size: 18px; /* Slightly larger text for links */
   font-weight: bold;
+  color: white;
+  text-decoration: none;
   transition: background-color 0.3s ease;
 }
 
 /* Add a hover effect on the navbar links */
 nav ul li a:hover {
   background-color: #444;
+}
+
+nav ul li a:hover, .dropdown:hover .dropbtn {
+  background-color: #111;
 }
 
 /* Styling for the dropdown menu */
