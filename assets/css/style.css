@@ -80,9 +80,9 @@ main {
 footer {
   margin-left: 200px; /* Keep the footer aligned with the content */
   padding: 20px;
-  background-color: #333;
+  background-color: #FF7F50;
   color: white;
- /* text-align: center */
+  text-align: center; 
 }
 
 /* Styling for navbar links */
