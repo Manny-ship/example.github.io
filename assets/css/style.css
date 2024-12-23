@@ -7,7 +7,7 @@
 
 /* Style the navigation bar */
 nav {
-  background-color: #00FFFF;
+  background-color: #00FFFF !important;
   width: 200px;  /* Width of the navbar */
   height: 100vh; /* Full viewport height */
   position: fixed; /* Fix it to the left side */
