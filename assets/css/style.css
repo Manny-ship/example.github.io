@@ -7,7 +7,7 @@
 
 /* Style the navigation bar */
 nav {
-  background-color: #FF7F50 !imporant;
+  background-color: #FF7F50 !important;  /* Coral color */
   width: 200px;  /* Width of the navbar */
   height: 100vh; /* Full viewport height */
   position: fixed; /* Fix it to the left side */
@@ -25,7 +25,6 @@ nav ul {
 
 nav ul li {
   display: block;
- /* padding: 10x 0;
 }
 
 nav ul li a, .dropdown .dropbtn {
@@ -49,11 +48,9 @@ nav ul li a:hover, .dropdown:hover .dropbtn {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #000000;
+  background-color: #333;
   min-width: 160px;
-  z-index: 1; /* Ensure it stays above other content */
-   /* left: 100%; 
-  /* Position it next to the "Experiences" link 
+  z-index: 1;
 }
 
 /* Links inside the dropdown */
@@ -83,9 +80,11 @@ main {
 footer {
   margin-left: 200px; /* Keep the footer aligned with the content */
   padding: 20px;
-  background-color: #FF7F50 !important;
+  background-color: #FF7F50;
   color: white;
+  text-align: center;
 }
+
 /* Styling for navbar links */
 nav ul li a {
   font-size: 18px; /* Slightly larger text for links */
