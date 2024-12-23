@@ -51,8 +51,9 @@ nav ul li a:hover, .dropdown:hover .dropbtn {
   position: absolute;
   background-color: #000000;
   min-width: 160px;
-  z-index: 50; /* Ensure it stays above other content */
-  left: 100%; /* Position it next to the "Experiences" link */
+  z-index: 10; /* Ensure it stays above other content */
+   /* left: 100%; 
+  /* Position it next to the "Experiences" link 
 }
 
 /* Links inside the dropdown */
