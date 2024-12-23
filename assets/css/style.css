@@ -51,7 +51,7 @@ nav ul li a:hover, .dropdown:hover .dropbtn {
   position: absolute;
   background-color: #000000;
   min-width: 160px;
-  z-index: 10; /* Ensure it stays above other content */
+  z-index: 1; /* Ensure it stays above other content */
    /* left: 100%; 
   /* Position it next to the "Experiences" link 
 }
@@ -83,7 +83,7 @@ main {
 footer {
   margin-left: 200px; /* Keep the footer aligned with the content */
   padding: 20px;
-  background-color: #FF7F50;
+  background-color: #FF7F50 !important;
   color: white;
 }
 /* Styling for navbar links */
