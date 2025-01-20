@@ -9,7 +9,7 @@
 nav {
   background-color: #FF7F50 !important;  /* Coral color */
   width: 200px;  /* Width of the navbar */
-  height: 100vh; /* Full viewport height */
+  height: 50vh; /* Full viewport height */
   position: fixed; /* Fix it to the left side */
   padding-top: 20px;
 }
